@@ -97,8 +97,9 @@
 .container {
   height: 100%;
   width: 100%;
-  position: fixed;
-  overflow-y: scroll;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
 }
@@ -109,7 +110,7 @@
   margin-left: 25%;
   margin-right: auto;
   text-align: start;
-  width: 100%;
+  max-width: 100%;
   height: 625px;
 }
 .title {
