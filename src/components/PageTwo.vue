@@ -34,7 +34,7 @@ function isEmailValid(email) {
             name="name"
           />
 
-          <router-link to="/">
+          <router-link to="/similarDev-test">
             <span class="close">
               <img src="../img/close_icon.svg" alt="" />
             </span>
@@ -126,7 +126,6 @@ function isEmailValid(email) {
   left: 0px;
   opacity: 60%;
 }
-
 .popup_container {
   background-color: white;
   position: fixed;
@@ -151,10 +150,10 @@ function isEmailValid(email) {
   background-color: transparent;
   border: none;
   height: 50px;
-  width: 50%;
+  width: 100%;
+  outline: none;
   padding-left: 10px;
 }
-
 .close {
   cursor: pointer;
 }
@@ -197,9 +196,9 @@ function isEmailValid(email) {
   width: 180px;
   height: 50px;
   cursor: pointer;
+  border-color: #d9d9d9;
   text-decoration: none;
 }
-
 .next-btn {
   display: flex;
   align-items: center;
@@ -213,6 +212,7 @@ function isEmailValid(email) {
   color: #000000;
   background: #ffc700;
   border-radius: 6px;
+  border-color: #d9d9d9;
   height: 50px;
   cursor: pointer;
 }

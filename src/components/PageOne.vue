@@ -6,7 +6,7 @@
         <h3>
           Тестовое задание для разработчика Тестовое задание для разработчика
         </h3>
-        <router-link to="/">
+        <router-link to="/similarDev-test">
           <span class="close">
             <img src="../img/close_icon.svg" alt="" />
           </span>
@@ -15,23 +15,23 @@
 
       <div class="radio_btn">
         <div class="btn">
-          <input class="radio" type="radio" />
+          <input class="radio" type="radio" name="radio" />
           <h4 class="text">Тестовое задание для разработчика</h4>
         </div>
         <div class="btn">
-          <input class="radio" type="radio" />
+          <input class="radio" type="radio" name="radio" />
           <h4 class="text">Тестовое задание для разработчика</h4>
         </div>
         <div class="btn">
-          <input class="radio" type="radio" />
+          <input class="radio" type="radio" name="radio" />
           <h4 class="text">Тестовое задание для разработчика</h4>
         </div>
         <div class="btn">
-          <input class="radio" type="radio" />
+          <input class="radio" type="radio" name="radio" />
           <h4 class="text">Тестовое задание для разработчика</h4>
         </div>
         <div class="btn">
-          <input class="radio" type="radio" />
+          <input class="radio" type="radio" name="radio" />
           <h4 class="text">Тестовое задание для разработчика</h4>
         </div>
       </div>
@@ -89,7 +89,6 @@
   border-radius: 16px;
   padding: 40px 60px;
 }
-
 .title {
   display: flex;
   font-weight: 500;
@@ -136,11 +135,11 @@
   color: rgba(0, 0, 0, 0.6);
   background: #d9d9d9;
   border-radius: 6px;
+  border-color: #d9d9d9;
   width: 180px;
   height: 50px;
   cursor: pointer;
 }
-
 .next-btn {
   display: flex;
   align-items: center;
@@ -154,6 +153,7 @@
   color: #000000;
   background: #ffc700;
   border-radius: 6px;
+  border-color: #d9d9d9;
   height: 50px;
   cursor: pointer;
 }

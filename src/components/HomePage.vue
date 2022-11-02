@@ -96,7 +96,9 @@
 <style>
 .container {
   height: 100%;
-  position: relative;
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
 }
@@ -165,8 +167,6 @@
   padding-top: 10px;
   margin-top: 80px;
   padding-bottom: 76px;
-  bottom: 0;
-  left: 0;
   background-color: black;
   font-weight: 400;
   font-size: 16px;
@@ -236,7 +236,6 @@
   .motivation-container {
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
   .animate-container {
     margin-bottom: 40px;
