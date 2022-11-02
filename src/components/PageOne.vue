@@ -83,12 +83,14 @@
 }
 .popup_container {
   background-color: white;
-  position: fixed;
+  position:fixed;
+  top: 80px;
   width: 800px;
   height: 570px;
   border-radius: 16px;
   padding: 40px 60px;
 }
+
 .title {
   display: flex;
   font-weight: 500;

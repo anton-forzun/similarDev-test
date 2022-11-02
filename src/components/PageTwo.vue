@@ -129,6 +129,7 @@ function isEmailValid(email) {
 .popup_container {
   background-color: white;
   position: fixed;
+  top: 80px;
   width: 800px;
   height: 570px;
   border-radius: 16px;
@@ -224,6 +225,7 @@ function isEmailValid(email) {
     width: 310px;
     padding: 20px 16px;
     margin-bottom: 24px;
+    bottom: 0;
   }
   .title {
     font-size: 20px;
