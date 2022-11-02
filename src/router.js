@@ -6,8 +6,8 @@ import HomePage from './components/HomePage.vue';
 export default createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', component: HomePage },
-    { path: '/registration', component: PageOne },
-    { path: '/registration_email', component: PageTwo },
+    { path: '/similarDev-test', component: HomePage },
+    { path: '/similarDev-test/registration', component: PageOne },
+    { path: '/similarDev-test/registration_email', component: PageTwo },
   ],
 })

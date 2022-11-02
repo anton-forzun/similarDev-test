@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 
 <template>
@@ -7,6 +8,7 @@
       <video autoplay muted loop id="myVideo">
       <source src="../img/baground_sea_1.mp4" type="video/mp4" />
     </video>
+
     </div>
     
     

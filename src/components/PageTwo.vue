@@ -76,7 +76,7 @@ function isEmailValid(email) {
 
         <div class="btn-container">
           <div>
-            <router-link class="router" to="/registration">
+            <router-link class="router" to="/similarDev-test/registration">
               <button class="prev-btn">
                 <img src="../img/arrow-right.svg" alt="" />
                 <h4 class="submit-btn">Назад</h4>
@@ -85,7 +85,7 @@ function isEmailValid(email) {
           </div>
 
           <div>
-            <router-link class="router" to="/">
+            <router-link class="router" to="/similarDev-test">
               <button type="sumbit" value="Submit" class="next-btn">
                 <h4>Регистрироваться</h4>
               </button>

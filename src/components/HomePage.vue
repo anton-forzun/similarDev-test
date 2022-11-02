@@ -24,7 +24,7 @@
           Тестовое задание для разработчика Тестовое задание для разработчика
         </li>
       </ul>
-      <router-link to="/registration">
+      <router-link to="/similarDev-test/registration">
         <button class="registration-btn">Регистрироваться</button>
       </router-link>
     </div>

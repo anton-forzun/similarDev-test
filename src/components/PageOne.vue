@@ -38,7 +38,7 @@
 
       <div class="btn-container">
         <div>
-          <router-link class="router" to="/">
+          <router-link class="router" to="/similarDev-test">
             <button class="prev-btn">
               <img src="../img/arrow-right.svg" alt="" />
               <h4>Назад</h4>
@@ -47,7 +47,7 @@
         </div>
 
         <div>
-          <router-link class="router" to="/registration_email">
+          <router-link class="router" to="/similarDev-test/registration_email">
             <button class="next-btn">
               <h4>Далее</h4>
               <img src="../img/arrow-left.svg" alt="" />
